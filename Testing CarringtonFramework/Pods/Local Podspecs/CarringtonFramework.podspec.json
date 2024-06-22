@@ -1,0 +1,22 @@
+{
+  "name": "CarringtonFramework",
+  "version": "1.0.0",
+  "summary": "My custom framework called CarringtonFramework.",
+  "description": "This is my super framework and I am enjoying it. This is my second framework.",
+  "homepage": "https://github.com/carrington-manyuchi/CarringtonFramework",
+  "license": "MIT",
+  "authors": {
+    "Carrington Manyuchi": "carringtonmanyuchi263@gmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/carrington-manyuchi/CarringtonFramework.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "CarringtonFramework",
+    "CarringtonFramework/**/*.{h,m}"
+  ]
+}

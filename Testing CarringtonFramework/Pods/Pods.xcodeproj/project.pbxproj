@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E08182040E7F6AD3C05610D2BAA5E5E /* CarringtonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA1AAE6145334319B227F6375D12DB1 /* CarringtonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327FC2C44633890F68012A34E255225A /* CarringtonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EF17DE090E12613ABE546E0E088025 /* CarringtonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3531BA10BFBC8FFCCE24CDB9F45EEC50 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3981D237F035515130C37712E71A1E /* Service.swift */; };
+		9EEABBBA0029F4B44E6E452BB6808E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF5AE4DA85FEBDAFAB4E930C4AE5871E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E2AD32E4DE12FEEBF2C65DC1CB9A4D5D /* CarringtonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C0F1F73ECF402758C237B99CAC7A1 /* CarringtonFramework-dummy.m */; };
+		FD0945D0AA2E8C330E215A114B8B097F /* Pods-Testing CarringtonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AF8467FB6F7943BFAD0F41FACE7546 /* Pods-Testing CarringtonFramework-dummy.m */; };
+		FE869A1C08DE7E5BEC6324D3707CBE18 /* Pods-Testing CarringtonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 332EDF6A74201C44E5196324C9F4B97F /* Pods-Testing CarringtonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BDB2F84D403DA5852505FDC4F0A37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F96B3286C8D8E525E28013EECC76FF5;
+			remoteInfo = CarringtonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3981D237F035515130C37712E71A1E /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = CarringtonFramework/Service.swift; sourceTree = "<group>"; };
+		235952EEB18FBEA599D24673C97B0C11 /* Pods-Testing CarringtonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Testing CarringtonFramework.modulemap"; sourceTree = "<group>"; };
+		2B686F1839E6C0695B41543A0C20EE5E /* Pods-Testing CarringtonFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Testing CarringtonFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F39BDF3F128716E7BFB85FA44630FAF /* CarringtonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarringtonFramework.debug.xcconfig; sourceTree = "<group>"; };
+		31AC7F6AE244B85393C6AFB1C4DECD9A /* Pods-Testing CarringtonFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Testing CarringtonFramework-frameworks.sh"; sourceTree = "<group>"; };
+		332EDF6A74201C44E5196324C9F4B97F /* Pods-Testing CarringtonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Testing CarringtonFramework-umbrella.h"; sourceTree = "<group>"; };
+		3D40EA5A8059520A987078CBD9134563 /* Pods-Testing CarringtonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Testing CarringtonFramework-Info.plist"; sourceTree = "<group>"; };
+		3DE945E5B519779883AA0DC55E2F0B8A /* CarringtonFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarringtonFramework; path = CarringtonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70045B1AA2F55A9617FB707929BE1985 /* CarringtonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarringtonFramework.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C1367714C85770932FE3C6C16988F0D /* Pods-Testing CarringtonFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Testing CarringtonFramework.release.xcconfig"; sourceTree = "<group>"; };
+		98EF17DE090E12613ABE546E0E088025 /* CarringtonFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarringtonFramework.h; path = CarringtonFramework/CarringtonFramework.h; sourceTree = "<group>"; };
+		9D550DDEB4C44457D6C8DCB4B4747256 /* CarringtonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CarringtonFramework-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A46F8B8AA87DE3A36E27713999344A71 /* CarringtonFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarringtonFramework.release.xcconfig; sourceTree = "<group>"; };
+		A690815E5A50270126B1D1F74506DF18 /* Pods-Testing CarringtonFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Testing CarringtonFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5AF8467FB6F7943BFAD0F41FACE7546 /* Pods-Testing CarringtonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Testing CarringtonFramework-dummy.m"; sourceTree = "<group>"; };
+		B984D43D37B755ADEF929B52DD5B7868 /* Pods-Testing CarringtonFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Testing CarringtonFramework"; path = Pods_Testing_CarringtonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70C0F1F73ECF402758C237B99CAC7A1 /* CarringtonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarringtonFramework-dummy.m"; sourceTree = "<group>"; };
+		E5831C4C2F0FDA80F2B1058E3E3A5F4C /* CarringtonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarringtonFramework-prefix.pch"; sourceTree = "<group>"; };
+		EC37DCC8F52D199195E6C2DD2CA49937 /* CarringtonFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CarringtonFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FBA1AAE6145334319B227F6375D12DB1 /* CarringtonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarringtonFramework-umbrella.h"; sourceTree = "<group>"; };
+		FFA90F19844F738E11350B7F39C01788 /* Pods-Testing CarringtonFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Testing CarringtonFramework.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199229E28A0D2F6C8BD50898D0BE00F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5AE4DA85FEBDAFAB4E930C4AE5871E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D645723D1573F7506019D43A2C60C226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEABBBA0029F4B44E6E452BB6808E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031336512819A6CCA5E9B006896B9EA7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				808363489C2ABE79A2F2F2328922C579 /* Pods-Testing CarringtonFramework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		808363489C2ABE79A2F2F2328922C579 /* Pods-Testing CarringtonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				235952EEB18FBEA599D24673C97B0C11 /* Pods-Testing CarringtonFramework.modulemap */,
+				A690815E5A50270126B1D1F74506DF18 /* Pods-Testing CarringtonFramework-acknowledgements.markdown */,
+				2B686F1839E6C0695B41543A0C20EE5E /* Pods-Testing CarringtonFramework-acknowledgements.plist */,
+				B5AF8467FB6F7943BFAD0F41FACE7546 /* Pods-Testing CarringtonFramework-dummy.m */,
+				31AC7F6AE244B85393C6AFB1C4DECD9A /* Pods-Testing CarringtonFramework-frameworks.sh */,
+				3D40EA5A8059520A987078CBD9134563 /* Pods-Testing CarringtonFramework-Info.plist */,
+				332EDF6A74201C44E5196324C9F4B97F /* Pods-Testing CarringtonFramework-umbrella.h */,
+				FFA90F19844F738E11350B7F39C01788 /* Pods-Testing CarringtonFramework.debug.xcconfig */,
+				8C1367714C85770932FE3C6C16988F0D /* Pods-Testing CarringtonFramework.release.xcconfig */,
+			);
+			name = "Pods-Testing CarringtonFramework";
+			path = "Target Support Files/Pods-Testing CarringtonFramework";
+			sourceTree = "<group>";
+		};
+		9B9436C243560C11D91C365613BE0C68 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC2B76907F47BC7C6053CAD6CB0D874 /* CarringtonFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9FD9B06CBBFEC560986EA2D90D62B6F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DE945E5B519779883AA0DC55E2F0B8A /* CarringtonFramework */,
+				B984D43D37B755ADEF929B52DD5B7868 /* Pods-Testing CarringtonFramework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC2B76907F47BC7C6053CAD6CB0D874 /* CarringtonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17DE090E12613ABE546E0E088025 /* CarringtonFramework.h */,
+				0E3981D237F035515130C37712E71A1E /* Service.swift */,
+				F33F54E6A2936DB03DC3577E0684B46C /* Pod */,
+				CD24D8D09291FBAAA339DF5A83613875 /* Support Files */,
+			);
+			name = CarringtonFramework;
+			path = ../../CarringtonFramework;
+			sourceTree = "<group>";
+		};
+		CD24D8D09291FBAAA339DF5A83613875 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70045B1AA2F55A9617FB707929BE1985 /* CarringtonFramework.modulemap */,
+				D70C0F1F73ECF402758C237B99CAC7A1 /* CarringtonFramework-dummy.m */,
+				9D550DDEB4C44457D6C8DCB4B4747256 /* CarringtonFramework-Info.plist */,
+				E5831C4C2F0FDA80F2B1058E3E3A5F4C /* CarringtonFramework-prefix.pch */,
+				FBA1AAE6145334319B227F6375D12DB1 /* CarringtonFramework-umbrella.h */,
+				2F39BDF3F128716E7BFB85FA44630FAF /* CarringtonFramework.debug.xcconfig */,
+				A46F8B8AA87DE3A36E27713999344A71 /* CarringtonFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Testing CarringtonFramework/Pods/Target Support Files/CarringtonFramework";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9B9436C243560C11D91C365613BE0C68 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9FD9B06CBBFEC560986EA2D90D62B6F8 /* Products */,
+				031336512819A6CCA5E9B006896B9EA7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F33F54E6A2936DB03DC3577E0684B46C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EC37DCC8F52D199195E6C2DD2CA49937 /* CarringtonFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0909ADAC2151CF64243E2E0509E944A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE869A1C08DE7E5BEC6324D3707CBE18 /* Pods-Testing CarringtonFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098ABB7B43452B6909B40BB51752A5CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327FC2C44633890F68012A34E255225A /* CarringtonFramework.h in Headers */,
+				2E08182040E7F6AD3C05610D2BAA5E5E /* CarringtonFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F96B3286C8D8E525E28013EECC76FF5 /* CarringtonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08DF0A3F6149FEB2FC29F715D7A99B9 /* Build configuration list for PBXNativeTarget "CarringtonFramework" */;
+			buildPhases = (
+				098ABB7B43452B6909B40BB51752A5CA /* Headers */,
+				284363531051F3F62F37CFF0B68BEC02 /* Sources */,
+				D645723D1573F7506019D43A2C60C226 /* Frameworks */,
+				1E1A7B78599239FCCFF4E07B8420F871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarringtonFramework;
+			productName = CarringtonFramework;
+			productReference = 3DE945E5B519779883AA0DC55E2F0B8A /* CarringtonFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3D859DFE7EB30C95EA1011BFEAFD8A6 /* Pods-Testing CarringtonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA898F6C21657B97B3DE271A8A9A507B /* Build configuration list for PBXNativeTarget "Pods-Testing CarringtonFramework" */;
+			buildPhases = (
+				0909ADAC2151CF64243E2E0509E944A0 /* Headers */,
+				A1944075C62D063AB45646877E89EA5F /* Sources */,
+				199229E28A0D2F6C8BD50898D0BE00F5 /* Frameworks */,
+				B75CD1A1D33A603C6E92B16F61F445B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38CF9DF9FCA6CAC910D7E397C6F4726E /* PBXTargetDependency */,
+			);
+			name = "Pods-Testing CarringtonFramework";
+			productName = Pods_Testing_CarringtonFramework;
+			productReference = B984D43D37B755ADEF929B52DD5B7868 /* Pods-Testing CarringtonFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9FD9B06CBBFEC560986EA2D90D62B6F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F96B3286C8D8E525E28013EECC76FF5 /* CarringtonFramework */,
+				C3D859DFE7EB30C95EA1011BFEAFD8A6 /* Pods-Testing CarringtonFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E1A7B78599239FCCFF4E07B8420F871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75CD1A1D33A603C6E92B16F61F445B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284363531051F3F62F37CFF0B68BEC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AD32E4DE12FEEBF2C65DC1CB9A4D5D /* CarringtonFramework-dummy.m in Sources */,
+				3531BA10BFBC8FFCCE24CDB9F45EEC50 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1944075C62D063AB45646877E89EA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0945D0AA2E8C330E215A114B8B097F /* Pods-Testing CarringtonFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38CF9DF9FCA6CAC910D7E397C6F4726E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarringtonFramework;
+			target = 6F96B3286C8D8E525E28013EECC76FF5 /* CarringtonFramework */;
+			targetProxy = A1BDB2F84D403DA5852505FDC4F0A37C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021014F249061E10AD1C255C9FD332B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F39BDF3F128716E7BFB85FA44630FAF /* CarringtonFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarringtonFramework/CarringtonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarringtonFramework/CarringtonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarringtonFramework/CarringtonFramework.modulemap";
+				PRODUCT_MODULE_NAME = CarringtonFramework;
+				PRODUCT_NAME = CarringtonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		333FBDE580CC9BAA31B39D0C7863DD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1367714C85770932FE3C6C16988F0D /* Pods-Testing CarringtonFramework.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Testing CarringtonFramework/Pods-Testing CarringtonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Testing CarringtonFramework/Pods-Testing CarringtonFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8281C313D08E366CAC927067383B8A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA90F19844F738E11350B7F39C01788 /* Pods-Testing CarringtonFramework.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Testing CarringtonFramework/Pods-Testing CarringtonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Testing CarringtonFramework/Pods-Testing CarringtonFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92639E1A408E092B4E62CE90B68E9708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46F8B8AA87DE3A36E27713999344A71 /* CarringtonFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarringtonFramework/CarringtonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarringtonFramework/CarringtonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarringtonFramework/CarringtonFramework.modulemap";
+				PRODUCT_MODULE_NAME = CarringtonFramework;
+				PRODUCT_NAME = CarringtonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA898F6C21657B97B3DE271A8A9A507B /* Build configuration list for PBXNativeTarget "Pods-Testing CarringtonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8281C313D08E366CAC927067383B8A8C /* Debug */,
+				333FBDE580CC9BAA31B39D0C7863DD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08DF0A3F6149FEB2FC29F715D7A99B9 /* Build configuration list for PBXNativeTarget "CarringtonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021014F249061E10AD1C255C9FD332B0 /* Debug */,
+				92639E1A408E092B4E62CE90B68E9708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

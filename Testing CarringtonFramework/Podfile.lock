@@ -1,0 +1,16 @@
+PODS:
+  - CarringtonFramework (1.0.0)
+
+DEPENDENCIES:
+  - CarringtonFramework (from `../CarringtonFramework/`)
+
+EXTERNAL SOURCES:
+  CarringtonFramework:
+    :path: "../CarringtonFramework/"
+
+SPEC CHECKSUMS:
+  CarringtonFramework: e6154e3351f64187e672c60a5f016d4a0fb22481
+
+PODFILE CHECKSUM: 4841b6b9b11e9e3b4363c00541390e37d7f23aa0
+
+COCOAPODS: 1.15.2

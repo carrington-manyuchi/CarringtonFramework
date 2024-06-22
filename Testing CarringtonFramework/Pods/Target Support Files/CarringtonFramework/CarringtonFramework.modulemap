@@ -1,0 +1,6 @@
+framework module CarringtonFramework {
+  umbrella header "CarringtonFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
